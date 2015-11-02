@@ -15,7 +15,7 @@
 	<% if user_signed_in? %>
 		<ul>
 			<li><%= link_to "Submit Link", new_link_path %></li>
-			<li><%= link_to "Account", edit_user_registratoin_path %></li>
+			<li><%= link_to "Account", edit_user_registration_path %></li>
 			<li><%= link_to "Sign Out", destroy_user_session_path, method: :delete, data: {confirm: "Are you sure?"}  %></li>
 		</ul>
 		<% else %>
