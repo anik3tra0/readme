@@ -24,3 +24,4 @@ end
 
 gem 'devise', '~> 3.5', '>= 3.5.2'
 gem 'acts_as_votable', '~> 0.10.0'
+gem 'simple_form', '~> 3.2'
